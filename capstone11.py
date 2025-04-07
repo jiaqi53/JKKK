@@ -21,8 +21,8 @@ def insert_to_db(name, input_text, category, tags):
         conn = mysql.connector.connect(
             host="localhost",
             user="root",
-            password="Aa53123405",  # Replace with your actual password
-            database="capstone"     # Make sure this DB exists and has the 'assessment' table
+            password="Aa53123405",  
+            database="capstone"     
         )
         cursor = conn.cursor()
         query = """
